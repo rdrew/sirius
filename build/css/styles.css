@@ -1251,11 +1251,11 @@ img {
   .p-list--divided .p-list__item:last-of-type, .p-list--divided .p-list__item .last-item {
     border-bottom: 0; }
 
-.p-inline-list__item, #block-journaleditormenu .menu li, .menu--account ul li, .p-inline-list--middot .p-inline-list__item, .menu--account ul .p-inline-list__item, .p-inline-list--middot .menu--account ul li, .menu--account ul .p-inline-list--middot li {
+.p-inline-list__item, #block-sirius-journaleditormenu .menu li, .menu--account ul li, .p-inline-list--middot .p-inline-list__item, .menu--account ul .p-inline-list__item, .p-inline-list--middot .menu--account ul li, .menu--account ul .p-inline-list--middot li {
   display: inline;
   list-style: none;
   margin-right: 1.25rem; }
-  .p-inline-list__item:last-of-type, #block-journaleditormenu .menu li:last-of-type, .menu--account ul li:last-of-type, .p-inline-list__item .last-item, #block-journaleditormenu .menu li .last-item, .menu--account ul li .last-item {
+  .p-inline-list__item:last-of-type, #block-sirius-journaleditormenu .menu li:last-of-type, .menu--account ul li:last-of-type, .p-inline-list__item .last-item, #block-sirius-journaleditormenu .menu li .last-item, .menu--account ul li .last-item {
     margin-right: 0; }
 
 .p-notification, .p-notification--positive, .p-notification--warning, .p-notification--negative {
@@ -2278,7 +2278,7 @@ sub {
     .p-button {
       width: auto; } }
 
-.p-button--neutral, #block-journaleditormenu .menu li a {
+.p-button--neutral, #block-sirius-journaleditormenu .menu li a {
   background-color: #fff;
   border-color: #666;
   border-radius: .125rem;
@@ -2302,20 +2302,20 @@ sub {
   -webkit-transition: background-color .2s;
   transition: background-color .2s;
   width: 100%; }
-  .p-button--neutral:visited, #block-journaleditormenu .menu li a:visited {
+  .p-button--neutral:visited, #block-sirius-journaleditormenu .menu li a:visited {
     color: #000; }
-  .p-button--neutral:active, #block-journaleditormenu .menu li a:active, .p-button--neutral:focus, #block-journaleditormenu .menu li a:focus, .p-button--neutral:hover, #block-journaleditormenu .menu li a:hover {
+  .p-button--neutral:active, #block-sirius-journaleditormenu .menu li a:active, .p-button--neutral:focus, #block-sirius-journaleditormenu .menu li a:focus, .p-button--neutral:hover, #block-sirius-journaleditormenu .menu li a:hover {
     background-color: rgba(0, 0, 0, 0.1);
     border-color: #666;
     text-decoration: none; }
-  .p-button--neutral:disabled, #block-journaleditormenu .menu li a:disabled, .p-button--neutral.is--disabled, #block-journaleditormenu .menu li a.is--disabled {
+  .p-button--neutral:disabled, #block-sirius-journaleditormenu .menu li a:disabled, .p-button--neutral.is--disabled, #block-sirius-journaleditormenu .menu li a.is--disabled {
     cursor: not-allowed;
     opacity: .5; }
-    .p-button--neutral:disabled:active, #block-journaleditormenu .menu li a:disabled:active, .p-button--neutral:disabled:focus, #block-journaleditormenu .menu li a:disabled:focus, .p-button--neutral:disabled:hover, #block-journaleditormenu .menu li a:disabled:hover, .p-button--neutral.is--disabled:active, #block-journaleditormenu .menu li a.is--disabled:active, .p-button--neutral.is--disabled:focus, #block-journaleditormenu .menu li a.is--disabled:focus, .p-button--neutral.is--disabled:hover, #block-journaleditormenu .menu li a.is--disabled:hover {
+    .p-button--neutral:disabled:active, #block-sirius-journaleditormenu .menu li a:disabled:active, .p-button--neutral:disabled:focus, #block-sirius-journaleditormenu .menu li a:disabled:focus, .p-button--neutral:disabled:hover, #block-sirius-journaleditormenu .menu li a:disabled:hover, .p-button--neutral.is--disabled:active, #block-sirius-journaleditormenu .menu li a.is--disabled:active, .p-button--neutral.is--disabled:focus, #block-sirius-journaleditormenu .menu li a.is--disabled:focus, .p-button--neutral.is--disabled:hover, #block-sirius-journaleditormenu .menu li a.is--disabled:hover {
       background-color: transparent;
       border-color: #666; }
   @media only screen and (min-width: 800px) {
-    .p-button--neutral, #block-journaleditormenu .menu li a {
+    .p-button--neutral, #block-sirius-journaleditormenu .menu li a {
       width: auto; } }
 
 .p-button--brand {
@@ -2807,16 +2807,16 @@ sub {
   .p-list--divided .is-ticked {
     background-position: 0 1rem; }
 
-.p-inline-list, #block-journaleditormenu .menu {
+.p-inline-list, #block-sirius-journaleditormenu .menu {
   margin-left: 0;
   padding-left: 0; }
 
 .p-inline-list--middot, .menu--account ul {
   margin-left: 0;
   padding-left: 0; }
-  .p-inline-list--middot .p-inline-list__item, .menu--account ul .p-inline-list__item, .p-inline-list--middot #block-journaleditormenu .menu li, #block-journaleditormenu .menu .p-inline-list--middot li, .menu--account ul #block-journaleditormenu .menu li, #block-journaleditormenu .menu .menu--account ul li, .p-inline-list--middot .menu--account ul li, .menu--account ul .p-inline-list--middot li, .menu--account ul li {
+  .p-inline-list--middot .p-inline-list__item, .menu--account ul .p-inline-list__item, .p-inline-list--middot #block-sirius-journaleditormenu .menu li, #block-sirius-journaleditormenu .menu .p-inline-list--middot li, .menu--account ul #block-sirius-journaleditormenu .menu li, #block-sirius-journaleditormenu .menu .menu--account ul li, .p-inline-list--middot .menu--account ul li, .menu--account ul .p-inline-list--middot li, .menu--account ul li {
     position: relative; }
-    .p-inline-list--middot .p-inline-list__item::after, .menu--account ul .p-inline-list__item::after, .p-inline-list--middot #block-journaleditormenu .menu li::after, #block-journaleditormenu .menu .p-inline-list--middot li::after, .menu--account ul #block-journaleditormenu .menu li::after, #block-journaleditormenu .menu .menu--account ul li::after, .p-inline-list--middot .menu--account ul li::after, .menu--account ul .p-inline-list--middot li::after, .menu--account ul li::after {
+    .p-inline-list--middot .p-inline-list__item::after, .menu--account ul .p-inline-list__item::after, .p-inline-list--middot #block-sirius-journaleditormenu .menu li::after, #block-sirius-journaleditormenu .menu .p-inline-list--middot li::after, .menu--account ul #block-sirius-journaleditormenu .menu li::after, #block-sirius-journaleditormenu .menu .menu--account ul li::after, .p-inline-list--middot .menu--account ul li::after, .menu--account ul .p-inline-list--middot li::after, .menu--account ul li::after {
       color: #666;
       content: '\00b7';
       font-size: 1.4rem;
@@ -2824,12 +2824,12 @@ sub {
       position: absolute;
       right: -1rem;
       top: .55rem; }
-    .p-inline-list--middot .p-inline-list__item:hover::after, .menu--account ul .p-inline-list__item:hover::after, .p-inline-list--middot #block-journaleditormenu .menu li:hover::after, #block-journaleditormenu .menu .p-inline-list--middot li:hover::after, .menu--account ul #block-journaleditormenu .menu li:hover::after, #block-journaleditormenu .menu .menu--account ul li:hover::after, .p-inline-list--middot .menu--account ul li:hover::after, .menu--account ul .p-inline-list--middot li:hover::after, .menu--account ul li:hover::after {
+    .p-inline-list--middot .p-inline-list__item:hover::after, .menu--account ul .p-inline-list__item:hover::after, .p-inline-list--middot #block-sirius-journaleditormenu .menu li:hover::after, #block-sirius-journaleditormenu .menu .p-inline-list--middot li:hover::after, .menu--account ul #block-sirius-journaleditormenu .menu li:hover::after, #block-sirius-journaleditormenu .menu .menu--account ul li:hover::after, .p-inline-list--middot .menu--account ul li:hover::after, .menu--account ul .p-inline-list--middot li:hover::after, .menu--account ul li:hover::after {
       color: #666; }
-    .p-inline-list--middot .p-inline-list__item:last-of-type::after, .menu--account ul .p-inline-list__item:last-of-type::after, .p-inline-list--middot #block-journaleditormenu .menu li:last-of-type::after, #block-journaleditormenu .menu .p-inline-list--middot li:last-of-type::after, .menu--account ul #block-journaleditormenu .menu li:last-of-type::after, #block-journaleditormenu .menu .menu--account ul li:last-of-type::after, .p-inline-list--middot .menu--account ul li:last-of-type::after, .menu--account ul .p-inline-list--middot li:last-of-type::after, .menu--account ul li:last-of-type::after,
+    .p-inline-list--middot .p-inline-list__item:last-of-type::after, .menu--account ul .p-inline-list__item:last-of-type::after, .p-inline-list--middot #block-sirius-journaleditormenu .menu li:last-of-type::after, #block-sirius-journaleditormenu .menu .p-inline-list--middot li:last-of-type::after, .menu--account ul #block-sirius-journaleditormenu .menu li:last-of-type::after, #block-sirius-journaleditormenu .menu .menu--account ul li:last-of-type::after, .p-inline-list--middot .menu--account ul li:last-of-type::after, .menu--account ul .p-inline-list--middot li:last-of-type::after, .menu--account ul li:last-of-type::after,
     .p-inline-list--middot .p-inline-list__item .last-item::after, .menu--account ul .p-inline-list__item .last-item::after,
-    .p-inline-list--middot #block-journaleditormenu .menu li .last-item::after, #block-journaleditormenu .menu
-    .p-inline-list--middot li .last-item::after, .menu--account ul #block-journaleditormenu .menu li .last-item::after, #block-journaleditormenu .menu .menu--account ul li .last-item::after,
+    .p-inline-list--middot #block-sirius-journaleditormenu .menu li .last-item::after, #block-sirius-journaleditormenu .menu
+    .p-inline-list--middot li .last-item::after, .menu--account ul #block-sirius-journaleditormenu .menu li .last-item::after, #block-sirius-journaleditormenu .menu .menu--account ul li .last-item::after,
     .p-inline-list--middot .menu--account ul li .last-item::after, .menu--account ul
     .p-inline-list--middot li .last-item::after, .menu--account ul li .last-item::after {
       content: ''; }
@@ -3214,19 +3214,19 @@ sub {
   padding: 7px 12px;
   height: 44px; }
 
-#block-journaleditormenu .contextual {
+#block-sirius-journaleditormenu .contextual {
   display: none; }
 
-#block-journaleditormenu .menu {
+#block-sirius-journaleditormenu .menu {
   margin: 0; }
-  #block-journaleditormenu .menu li {
+  #block-sirius-journaleditormenu .menu li {
     margin: 0; }
-    #block-journaleditormenu .menu li a {
+    #block-sirius-journaleditormenu .menu li a {
       padding: 5px;
       font-size: .9rem;
       font-weight: 300;
       color: #333; }
-    #block-journaleditormenu .menu li a:hover {
+    #block-sirius-journaleditormenu .menu li a:hover {
       text-decoration: none;
       background: #007399;
       color: #fff; }
