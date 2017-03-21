@@ -1,0 +1,35 @@
+//layout
+
+.region-header {
+  @include on-mobile {
+    justify-content: center;
+    text-align: center;
+  }
+
+  @include on-desktop() {
+
+    @include row-base;
+
+    .branding {
+      @include column(9, $first: true);
+
+
+    }
+    .site-search {
+
+      @include column(3);
+
+
+    }
+
+  }
+}
+//style
+.region-header {
+
+  border-bottom: 3px solid $color-light-grey; 
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+
+}
+

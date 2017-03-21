@@ -1,0 +1,60 @@
+@include on-desktop {
+  .slicknav_menu {
+    display: none;
+  }
+}
+
+
+.slicknav_nav .contextual-links {
+
+  display: none;
+
+}
+
+.slicknav_nav {
+  &.slicknav_hidden nav {
+
+
+  }
+  //display:block  !important;
+  //titles
+  .block {
+
+  }
+  h2 {
+
+    text-align: center;
+  }
+  .menu--main h2 {
+
+    margin-top: 0  !important;
+
+  }
+  .menu--linksmenu h2 {
+
+    margin-top: 1rem;
+
+  }
+  ul.menu {
+
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px dotted $color-blue-grey;
+    margin-bottom: 10px 0 !important;
+  }
+  li {
+
+    text-align: center;
+
+  }
+  a {
+
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0;
+
+  }
+
+}
+
+

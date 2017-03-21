@@ -1,0 +1,19 @@
+global-css:
+  css:
+    theme:
+      build/css/styles.css: {}
+       
+global-js:
+  js:
+    build/js/scripts.js: {}
+  dependencies:
+    - core/jquery
+
+slicknav:
+  js: 
+    build/js/jquery.slicknav.js: {}
+    #css: 
+      #theme: 
+        #build/css/slicknav.css: {}
+
+

@@ -1,0 +1,25 @@
+#block-journaleditormenu {
+  .contextual {
+    display: none;
+  }
+  .menu { 
+    @extend .p-inline-list;
+    margin: 0;
+    li { 
+      @extend .p-inline-list__item;
+
+      margin: 0;
+      a {
+        @extend .p-button--neutral;
+        padding:5px;
+        font-size: .9rem;
+        font-weight:300;
+        color: #333;
+      }
+      a:hover {
+        text-decoration: none;
+        background: $color-brand;
+        color:#fff;
+      }
+
+} } }
