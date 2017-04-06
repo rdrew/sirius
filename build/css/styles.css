@@ -2398,7 +2398,8 @@ sub {
     .p-button--positive, .expander .expander-trigger {
       width: auto; } }
 
-.p-button--negative, .node-book-edit-form a#edit-delete {
+.p-button--negative, .node-book-form a#edit-delete,
+.node-book-edit-form a#edit-delete {
   background-color: #d73024;
   border-color: #d73024;
   border-radius: .125rem;
@@ -2422,20 +2423,33 @@ sub {
   -webkit-transition: background-color .2s;
   transition: background-color .2s;
   width: 100%; }
-  .p-button--negative:visited, .node-book-edit-form a#edit-delete:visited {
+  .p-button--negative:visited, .node-book-form a#edit-delete:visited,
+  .node-book-edit-form a#edit-delete:visited {
     color: #fff; }
-  .p-button--negative:active, .node-book-edit-form a#edit-delete:active, .p-button--negative:focus, .node-book-edit-form a#edit-delete:focus, .p-button--negative:hover, .node-book-edit-form a#edit-delete:hover {
+  .p-button--negative:active, .node-book-form a#edit-delete:active,
+  .node-book-edit-form a#edit-delete:active, .p-button--negative:focus, .node-book-form a#edit-delete:focus,
+  .node-book-edit-form a#edit-delete:focus, .p-button--negative:hover, .node-book-form a#edit-delete:hover,
+  .node-book-edit-form a#edit-delete:hover {
     background-color: #ab261d;
     border-color: #ab261d;
     text-decoration: none; }
-  .p-button--negative:disabled, .node-book-edit-form a#edit-delete:disabled, .p-button--negative.is--disabled, .node-book-edit-form a.is--disabled#edit-delete {
+  .p-button--negative:disabled, .node-book-form a#edit-delete:disabled,
+  .node-book-edit-form a#edit-delete:disabled, .p-button--negative.is--disabled, .node-book-form a.is--disabled#edit-delete,
+  .node-book-edit-form a.is--disabled#edit-delete {
     cursor: not-allowed;
     opacity: .5; }
-    .p-button--negative:disabled:active, .node-book-edit-form a#edit-delete:disabled:active, .p-button--negative:disabled:focus, .node-book-edit-form a#edit-delete:disabled:focus, .p-button--negative:disabled:hover, .node-book-edit-form a#edit-delete:disabled:hover, .p-button--negative.is--disabled:active, .node-book-edit-form a.is--disabled#edit-delete:active, .p-button--negative.is--disabled:focus, .node-book-edit-form a.is--disabled#edit-delete:focus, .p-button--negative.is--disabled:hover, .node-book-edit-form a.is--disabled#edit-delete:hover {
+    .p-button--negative:disabled:active, .node-book-form a#edit-delete:disabled:active,
+    .node-book-edit-form a#edit-delete:disabled:active, .p-button--negative:disabled:focus, .node-book-form a#edit-delete:disabled:focus,
+    .node-book-edit-form a#edit-delete:disabled:focus, .p-button--negative:disabled:hover, .node-book-form a#edit-delete:disabled:hover,
+    .node-book-edit-form a#edit-delete:disabled:hover, .p-button--negative.is--disabled:active, .node-book-form a.is--disabled#edit-delete:active,
+    .node-book-edit-form a.is--disabled#edit-delete:active, .p-button--negative.is--disabled:focus, .node-book-form a.is--disabled#edit-delete:focus,
+    .node-book-edit-form a.is--disabled#edit-delete:focus, .p-button--negative.is--disabled:hover, .node-book-form a.is--disabled#edit-delete:hover,
+    .node-book-edit-form a.is--disabled#edit-delete:hover {
       background-color: #d73024;
       border-color: #d73024; }
   @media only screen and (min-width: 800px) {
-    .p-button--negative, .node-book-edit-form a#edit-delete {
+    .p-button--negative, .node-book-form a#edit-delete,
+    .node-book-edit-form a#edit-delete {
       width: auto; } }
 
 .p-button--base {
@@ -3223,7 +3237,7 @@ sub {
     margin: 0; }
     #block-sirius-journaleditormenu .menu li a {
       padding: 5px;
-      font-size: .9rem;
+      font-size: .8rem;
       font-weight: 300;
       color: #333; }
     #block-sirius-journaleditormenu .menu li a:hover {
@@ -3273,37 +3287,52 @@ body {
 .expander .expander-hidden + .expander-content {
   display: none; }
 
+.title_example {
+  margin-bottom: 2rem;
+  display: block; }
+
+.node-book-form select,
 .node-book-edit-form select {
   min-height: initial;
   width: 3rem; }
 
+.node-book-form td,
 .node-book-edit-form td {
   padding: .5rem; }
 
+.node-book-form .dropbutton .dropbutton-action > *,
 .node-book-edit-form .dropbutton .dropbutton-action > * {
   padding: .5rem; }
 
+.node-book-form .dropbutton-widget,
 .node-book-edit-form .dropbutton-widget {
   padding: 2px; }
 
+.node-book-form .vertical-tabs__pane input,
+.node-book-form .vertical-tabs__pane select,
 .node-book-edit-form .vertical-tabs__pane input,
 .node-book-edit-form .vertical-tabs__pane select {
   width: initial; }
 
+.node-book-form .vertical-tabs,
 .node-book-edit-form .vertical-tabs {
   padding: 0;
   margin: 0; }
 
+.node-book-form .tabledrag-toggle-weight,
 .node-book-edit-form .tabledrag-toggle-weight {
   display: none; }
 
+.node-book-form .vertical-tabs__menu,
 .node-book-edit-form .vertical-tabs__menu {
   display: none; }
 
+.node-book-form label,
 .node-book-edit-form label {
   font-size: 1.2rem;
   font-weight: 500; }
 
+.node-book-form .filter-wrapper,
 .node-book-edit-form .filter-wrapper {
   display: none; }
 
