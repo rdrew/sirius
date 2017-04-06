@@ -3275,7 +3275,7 @@ body {
 
 .node-book-edit-form select {
   min-height: initial;
-  /*width: 3rem;*/ }
+  width: 3rem; }
 
 .node-book-edit-form td {
   padding: .5rem; }
