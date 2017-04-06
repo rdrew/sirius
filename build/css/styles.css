@@ -3545,6 +3545,8 @@ nav.tabs li {
   .region-sidebar-first .menu {
     /*margin: 0;*/
     /*padding: 0;*/ }
+  .region-sidebar-first .contextual {
+    display: none; }
 
 .search-results {
   padding-left: 0;
