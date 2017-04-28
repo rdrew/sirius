@@ -1,0 +1,7 @@
+{
+  "name": "roblib/sirius",
+  "description": "D8 theme used on istudies, using ubuntu framework",
+  "type": "drupal-custom-theme",
+  "minimum-stability": "dev",
+  "require": { }
+}
